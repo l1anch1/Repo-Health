@@ -1,6 +1,6 @@
-# 仓库健康度量和寿命预测
+# Repository Health Metrics and Lifespan Prediction
 
-## 文件结构
+## File Structure
 ```
 RepoHealth  
 |-- data  
@@ -21,30 +21,36 @@ RepoHealth
 |   |-- prediction
 ```
 
-## 数据集
+## Datasets
 [Repositories_with_label](https://www.gitlink.org.cn/api/attachments/d88dec86-1959-44b7-889f-5f602b6ab528)\
 [Repositories_with_statistics](https://www.gitlink.org.cn/api/attachments/0b3b1792-f60d-45fc-b4e3-767600d8eb63)
 
-## 运行环境
-依赖库：requirements.txt
+## Execution Environment
+Dependency libraries：requirements.txt
 ```
-# 安装依赖库
+# Install dependency libraries
 pip install -r ./requirements.txt
 ```
 
-## 如何运行
+## Getting Started
+```
+data_process.ipynb
+```
+Process raw data and generate preprocessed datasets
+```
+exploratory_data_analysis.ipynb
+```
+Exploratory data analysis
+```
+machine_learning_models.ipynb
+```
+Apply various feature importance analysis methods and traditional machine learning models for feature analysis, health metrics, and prediction, etc.
+```
+deep_learning.ipynb
+```
+Train various deep learning models for repository lifespan prediction
 
-data_process.ipynb\
-处理原始数据，并生成预处理后的数据集
 
-exploratory_data_analysis.ipynb\
-探索性数据分析
-
-machine_learning_models.ipynb\
-应用多种特征重要性分析方法和传统机器学习模型进行特征分析、健康度量和预测等
-
-deep_learning.ipynb\
-训练了多种深度学习模型进行仓库寿命的预测
 
 
 
